@@ -1,0 +1,39 @@
+body{
+	/*propedades de fondo*/
+	/*background:black;*/
+	
+	/**para ponder una imagen de fondo en lugar de un color*/
+
+	background: url('Img/Arbol.jpg');
+	/*Si la imagen es muy chica se va a duplicar, para evitar esto 
+	se añade la propedad background-repeat, o solo a la izquiera repeat-x*/
+	/*background-repeat:no-repeat;*/
+	
+	/*tamaño del fond*/
+	background-repeat:no-repeat;
+	/*ancho y alto*/
+	background-size:cover; /*100% o cover*/
+	
+	background-attachment:fixed; /*fixed o scroll*/
+	/*vertical, horizontal*/
+	background-position:center center;
+	
+
+	/*todo se uede poner dentro de una misma linea*/
+	 
+	 background: url('Img/Arbol.jpg') cover fixed;
+}
+
+article{
+	
+	
+	font-size:40px;
+}
+
+.fondo{
+	
+	width: 600px;
+	height:600px;
+	background: url('Img/Arbol.jpg')
+	
+}
